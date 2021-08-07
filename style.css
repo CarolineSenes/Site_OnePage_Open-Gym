@@ -274,8 +274,8 @@ h1{
 .info-card p{
     color: #333;
     text-align: center;
-    font-size: 23px;
-    padding: 0 5px 15px;
+    font-size: 18px;
+    padding: 0 15px 15px;
 }
 
 .info-card img{
@@ -406,7 +406,7 @@ h1{
 
 .card-info{
     width: 100%;
-    margin: 20px auto 40px;
+    margin: 18px auto 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -462,7 +462,7 @@ form{
 }
 
 input{
-    padding: 10px 5px;
+    padding: 10px 10px;
     border-radius: 25px;
 }
 
@@ -471,6 +471,7 @@ textarea{
     height: 250px;
     border-radius: 25px;
     padding: 15px;
+    resize : none;
 }
 
 input:nth-child(4){
@@ -514,11 +515,43 @@ input:nth-child(4){
 }
 
 /* FOOTER */
-footer{
+/* footer{
     margin-top: 80px;
     text-align: center;
     padding: 15px 0;
     background-color: #000;
     color: #fff;
     font-size: 14px;
+} */
+
+.footer{
+    margin-top: 80px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    color: #f4f4f4;
 }
+
+.icons{
+    padding: 15px;
+}
+
+.icons a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: #f4f4f4;
+}
+
+.company-name{
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+
+.droits{
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
