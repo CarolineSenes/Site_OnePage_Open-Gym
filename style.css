@@ -496,3 +496,13 @@ input:nth-child(4){
         box-shadow: none;
     }
 }
+
+/* FOOTER */
+footer{
+    margin-top: 80px;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+}
