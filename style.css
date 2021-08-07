@@ -6,6 +6,11 @@
 
 body{
     background: #f1f1f1;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 /* NAVIGATION */
@@ -84,6 +89,7 @@ h1{
     padding-top: 200px;
     padding-bottom: 20px;
     margin-left: 8vw;
+    font-family: Montserrat, Roboto, Helvetica, sans-serif;
 }
 
 .hero p{
@@ -224,6 +230,7 @@ h1{
     font-size: 65px;
     padding: 80px 20px 80px;
     text-transform: uppercase;
+    font-family: Montserrat, Roboto, Helvetica, sans-serif;
 }
 
 .info-section{
@@ -338,6 +345,7 @@ h1{
         font-size: 50px;
     }
 }
+
 @media screen and (max-width: 450px){
     .parallax-txt{
         font-size: 33px;
@@ -373,6 +381,7 @@ h1{
     font-size: 45px;
     margin: 25px 0;
     position: relative;
+    font-family: Montserrat, Roboto, Helvetica, sans-serif;
 }
 
 .prix span{
