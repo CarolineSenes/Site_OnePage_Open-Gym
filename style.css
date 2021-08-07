@@ -141,9 +141,10 @@ h1{
 
 @media screen and (max-width: 1350px){
     .home-left{
-        width: 60%;
+        width: 40%;
     }
     .home-right{
+        width: 60%;
         background-position: 45% 20%;
     }
 }
@@ -165,9 +166,10 @@ h1{
         margin-top: 20px;
     }
     .home-left{
-        width: 50%;
+        width: 30%;
     }
     .home-right{
+        width: 70%;
         background-position: 45% 40%;
     }
 
@@ -175,12 +177,12 @@ h1{
 
 @media screen and (max-width: 550px){
     .hero{
-        height: 550px;
+        height: 667px;
     }
     .home-left h1{
-        font-size: 40px;
+        font-size: 50px;
         padding-top: 100px;
-        margin-left: 2vw;
+        margin-left: 4vw;
     }
     .hero p{
         font-size: 20px;
@@ -197,7 +199,11 @@ h1{
     .b2{
         margin-left: 10px;
     }
+    .home-left{
+        width: 0;
+    }
     .home-right{
+        width: 100%;
         background-position: 45% 40%;
     }
 }
@@ -296,7 +302,7 @@ h1{
 @media screen and (max-width: 550px){
     .section-title{
         font-size: 32px;
-        padding: 40px 20px 40px;
+        padding: 70px 20px 40px;
     }
 }
 
@@ -481,6 +487,7 @@ input:nth-child(4){
     background: #000;
     color: #fff;
     font-size: 20px;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 .contact-btn:hover{
