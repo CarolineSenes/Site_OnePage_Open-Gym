@@ -276,7 +276,7 @@ h1{
 }
 @media screen and (max-width: 1170px){
     .info-card{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -413,5 +413,86 @@ h1{
         width: 80%;
         height: auto;
 
+    }
+}
+
+@media screen and (max-width : 340px){
+    .card-prix{
+        width: 90%;
+        height: auto;
+
+    }
+}
+
+/* CONTACT */
+form{
+    width: 40%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.label, input, textarea{
+    width: 100%;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+input{
+    padding: 10px 5px;
+    border-radius: 25px;
+}
+
+textarea{
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+input:nth-child(4){
+    margin-bottom: 30px;
+}
+
+.contact-btn{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact-btn:hover{
+    transition: all 0.2s ease;
+    background-color: #fff;
+    color: #000;
+}
+
+@media screen and (max-width: 1200px){
+    form{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 960px){
+    form{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 340px){
+    form{
+        width: 100%;
+        box-shadow: none;
     }
 }
