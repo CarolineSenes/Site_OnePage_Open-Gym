@@ -14,6 +14,7 @@ Un site web moderne, dynamique et responsive avec une interface fluide sur tous 
 - Effets au survol
 - Smooth scroll
 - Responsive
+- Formulaire de contact
 
   
 ## Screenshots
