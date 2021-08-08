@@ -13,6 +13,7 @@
     <title>Open Gym</title>
 </head>
 <body>
+    <main>
     <!-- NAVIGATION -->
     <nav>
         <ul>
@@ -71,15 +72,15 @@
     <!-- EQUIPEMENTS -->
     <h2 class="section-title" id="equipement">Equipements</h2>
     <section class="equipment">
-        <img src="img/equipement-1.jpg"></img>
-        <img src="img/equipement-2.jpg"></img>
-        <img src="img/equipement-3.jpg"></img>
-        <img src="img/equipement-4.jpg"></img>
-        <img src="img/equipement-5.jpg"></img>
-        <img src="img/equipement-6.jpg"></img>
-        <img src="img/equipement-7.jpg"></img>
-        <img src="img/equipement-8.jpg"></img>
-        <img src="img/equipement-9.jpg"></img>
+        <img src="img/equipement-1.jpg" alt="anneaux"></img>
+        <img src="img/equipement-2.jpg" alt="corde"></img>
+        <img src="img/equipement-3.jpg" alt="haltères"></img>
+        <img src="img/equipement-4.jpg" alt="poids rogue"></img>
+        <img src="img/equipement-5.jpg" alt="rig rogue"></img>
+        <img src="img/equipement-6.jpg" alt="corde pour hiit"></img>
+        <img src="img/equipement-7.jpg" alt="rameur concept 2"></img>
+        <img src="img/equipement-8.jpg" alt="salle équipée"></img>
+        <img src="img/equipement-9.jpg" alt="vestiaires"></img>
     </section>
 
     <!-- PARALLAX -->
@@ -116,11 +117,11 @@
     <section class="contact">
         <form action="#">
             <label for="prenom">Prénom</label>
-            <input type="text" id="prenom">
+            <input type="text" id="prenom" required>
             <label for="nom">Nom</label>
-            <input type="text" id="nom">
+            <input type="text" id="nom" required>
             <label for="message">Message</label>
-            <textarea type="text" id="message"></textarea>
+            <textarea type="text" id="message" required></textarea>
             <button class="contact-btn" type="submit">Envoyer</button>
         </form>
     </section>
@@ -128,8 +129,8 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             <p class="company-name">Open GYM</p>
             <p>13 rue des pins, 67500 HAGUENAU</p>
             <p>Lundi au Samedi : 7h30 à 20h30</p>
@@ -137,7 +138,7 @@
          </div>
     </footer>
 
-
+</main>
     <script src="app.js"></script>
 </body>
 </html>
