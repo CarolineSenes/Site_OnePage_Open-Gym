@@ -1,7 +1,7 @@
 
 # Site vitrine pour une salle de sport
 
-Un site web moderne, dynamique et responsive avec une interface fluide sur tous les terminaux: Desktop, tablettes et smartphones.
+Un site web moderne, dynamique, aux normes d'accessibilité et responsive avec une interface fluide sur tous les terminaux: Desktop, tablettes et smartphones.
 
 ## Tech Stack
 
