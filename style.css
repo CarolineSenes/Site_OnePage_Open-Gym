@@ -1,3 +1,4 @@
+
 *, ::before, ::after{
     box-sizing: border-box;
     margin: 0;
@@ -90,6 +91,7 @@ h1{
     padding-bottom: 20px;
     margin-left: 8vw;
     font-family: Montserrat, Roboto, Helvetica, sans-serif;
+    animation: scale .5s forwards;
 }
 
 .hero p{
@@ -233,7 +235,7 @@ h1{
 .section-title{
     color: #000;
     text-align: center;
-    font-size: 65px;
+    font-size: 46px;
     padding: 80px 20px 80px;
     text-transform: uppercase;
     font-family: Montserrat, Roboto, Helvetica, sans-serif;
@@ -555,3 +557,12 @@ input:nth-child(4){
     margin-top: 1.5rem;
 }
 
+@keyframes scale{
+    0%{
+        transform: scale(2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
